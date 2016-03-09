@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+
+h1 {
+color: black; 
+font-size: 54px;
+font-family:Arial, sans-serif;
+font-style: normal;
+font-weight:bold;
+text-align:center;
+
+}
+
+p {
+    color: white;
+}
