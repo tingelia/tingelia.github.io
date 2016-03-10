@@ -1,3 +1,8 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
 *,
 *:before,
 *:after{
@@ -47,7 +52,7 @@ header{
 h1 {
   color: #000; 
   font-size: 54px;
-  font-family:Arial, sans-serif;
+  font-family:roboto, sans-serif;
   font-style: normal;
   font-weight:bold;
   text-align:center;
@@ -55,20 +60,22 @@ h1 {
 }
 
 p {
-  color: #696969;
-  font-size: 20px;
-  font-family:times, sans-serif;
+  color: #735744;
+  font-size: 26px;
+  font-family:indie flower, sans-serif;
   font-style:normal;
   font-weight:normal;
   text-align:left;
 }
 
-<h2> {
-  color: #FF9900;
-  font-size: 20px;
-  font-family:times, sans-serif;
+h2 {
+  color: red;
+  font-size: 26px;
+  font-family:cabin, serif;
   font-style:normal;
   font-weight:normal;
   text-align:center;
+  margin-left: 20px;
+  margin-right:20px;
 
 }
