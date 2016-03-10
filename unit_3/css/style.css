@@ -1,5 +1,47 @@
+*,
+*:before,
+*:after{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
 body {
     background-color: white;
+}
+
+.left {
+  width:70%; 
+  float:left;
+}
+
+.left img{
+  display:block;
+  width:100%;
+}
+
+.right{
+  height:0;
+  padding-bottom: 41%;
+  position:relative;
+  width:30%;
+  float:right;
+}
+
+.right p{
+  position:absolute;
+  bottom:0;
+  left:10px;
+}
+
+header:after{
+  content: "";
+  display:block;
+  clear:both;
+}
+
+header{
+  border-bottom: 1px solid black; 
 }
 
 h1 {
@@ -13,7 +55,6 @@ h1 {
 }
 
 p {
-  padding-top: 400px;
   color: #696969;
   font-size: 20px;
   font-family:times, sans-serif;
