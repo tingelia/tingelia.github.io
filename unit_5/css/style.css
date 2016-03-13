@@ -1,7 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+p{
+	font-size:16px;
+}
+
 header {
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
+    color: #000; 
+  font-size: 2em;
+  font-family:roboto, sans-serif;
+  font-style: normal;
+  font-weight:bold;
+  text-align:center;
 }
 
 .one{
@@ -9,23 +22,42 @@ header {
     border: 1px black solid;
     padding: 20px;
 }
+
 .bigimage {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
+    width: 60%; 
+    float:left;
 }
+
 .words {
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+  height:100%;
+  width:30%;
+  float:right;
+  background-color: #E89C6C;
+  border: 1px black solid;
+  padding:20px;
+}
+
+.words p{
+ left:10px;
+}
+
+
+:after{
+  content: "";
+  display:block;
+  clear:both;
 }
  
 nav {
  	background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
- img {display:block; width:6%;} 
  }
+
+ nav img {display:inline; width:6%;} 
 
 .two{
     background-color: #FFE2B8;
@@ -37,23 +69,36 @@ nav {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
+    display:inline-block; 
+    width:23%
+    float:left;
 }
+
 .Hometown{
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
+    display:inline-block; 
+    width:21%
 }
 
 .Currentlocation{
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
+    display:inline-block; 
+    width:21%
 }
+
 .Spot{
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
+    display:inline-block;
+    width:21%
+    float:right;
 }
+
 
 footer {
     background-color: #FF957E;
