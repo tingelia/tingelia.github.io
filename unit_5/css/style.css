@@ -3,3 +3,60 @@ header {
     border: 1px black solid;
     padding: 20px;
 }
+
+.one{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+.bigimage {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+.words {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+ 
+nav {
+ 	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+ img {display:block; width:6%;} 
+ }
+
+.two{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.Givenname{
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+.Hometown{
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.Currentlocation{
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+.Spot{
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
