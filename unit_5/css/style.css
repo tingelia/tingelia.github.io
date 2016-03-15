@@ -57,7 +57,7 @@ nav {
     padding: 20px;
  }
 
- nav img {display:inline; width:6%;} 
+ nav img {float:left; width:6%;} 
 
 .two{
     background-color: #FFE2B8;
@@ -69,7 +69,8 @@ nav {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-    display:inline-block; 
+    float:left;
+    display:inline-block;
     width:23%
     float:left;
 }
@@ -78,16 +79,16 @@ nav {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-    display:inline-block; 
-    width:21%
+    float:left;
+    width:23%
 }
 
 .Currentlocation{
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-    display:inline-block; 
-    width:21%
+    float:left;
+    width:23%
 }
 
 .Spot{
@@ -95,8 +96,9 @@ nav {
     border: 1px black solid;
     padding: 20px;
     display:inline-block;
-    width:21%
-    float:right;
+    float:left;
+    width:23%
+    
 }
 
 
