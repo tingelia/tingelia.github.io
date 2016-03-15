@@ -10,18 +10,17 @@ header {
     border: 1px black solid;
     padding: 20px;
     color: #000; 
-  font-size: 2em;
-  font-family:roboto, sans-serif;
-  font-style: normal;
-  font-weight:bold;
+   font-size: 2em;
+   font-family:roboto, sans-serif;
+   font-style: normal;
+    font-weight:bold;
   text-align:center;
 }
 
 .one{
     background-color: #FFE2B8;
     border: 1px black solid;
-    padding: 20px;
-   
+    padding: 20px;  
 }
 
 .bigimage {
@@ -32,10 +31,8 @@ header {
     float:left;
 } 
 
+
 .words {
-  height:0;
-  padding-bottom: 32%;
-  position:relative;
   width:32%;
   float:right;
   background-color: #E89C6C;
@@ -46,29 +43,29 @@ header {
  left:10px;
 }
 
-
-:after{
+.clearfix:after{
   content: "";
   display:block;
   clear:both;
 }
- 
+
 nav {
  	background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
  }
 
- nav img {float:left; width:6%;} 
+nav img{
+  float:left; 
+  width:6%;
+} 
 
- .clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
+nav:after{
+  content: "";
+  display:block;
+  clear:both;
 }
+
 
 .two{
     background-color: #FFE2B8;
@@ -83,6 +80,12 @@ nav {
     float:left;
     display:inline-block;
     width:20%
+}
+
+.clearfix:after{
+  content: "";
+  display:block;
+  clear:both;
 }
 
 footer {
