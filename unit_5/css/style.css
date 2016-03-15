@@ -21,23 +21,23 @@ header {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+    height: 100%;
 }
 
-.bigimage {
+#bigimage {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-    width: 60%; 
+    width: 61%; 
     float:left;
-}
+} 
 
-.words {
-  height:100%;
-  width:30%;
+#words {
+  width:32%;
   float:right;
   background-color: #E89C6C;
   border: 1px black solid;
-  padding:20px;
+  padding:20%,20px,20%,20px;
 }
 
 .words p{
@@ -59,48 +59,29 @@ nav {
 
  nav img {float:left; width:6%;} 
 
+ .clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
 .two{
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
 }
 
-.Givenname{
+.Column{
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
     float:left;
     display:inline-block;
-    width:23%
-    float:left;
+    width:20%
 }
-
-.Hometown{
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-    float:left;
-    width:23%
-}
-
-.Currentlocation{
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-    float:left;
-    width:23%
-}
-
-.Spot{
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
-    display:inline-block;
-    float:left;
-    width:23%
-    
-}
-
 
 footer {
     background-color: #FF957E;
