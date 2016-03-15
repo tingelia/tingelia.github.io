@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+*{box-sizing: border-box;}
 
 p{
 	font-size:16px;
@@ -17,26 +18,28 @@ header {
   text-align:center;
 }
 
-.one{
+#one{
     background-color: #FFE2B8;
     border: 1px black solid;
-    padding: 20px;  
 }
 
 .bigimage {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
-    width: 61%; 
+    width: 60%; 
     float:left;
 } 
 
 
 .words {
-  width:32%;
+  width:40%;
   float:right;
   background-color: #E89C6C;
   border: 1px black solid;
+  padding:60px 20px;
+  height:413px;
+
 }
 
 .words p{
@@ -44,7 +47,7 @@ header {
 }
 
 .clearfix:after{
-  content: "";
+  content: " ";
   display:block;
   clear:both;
 }
@@ -57,20 +60,13 @@ nav {
 
 nav img{
   float:left; 
-  width:6%;
+  width:6.666%;
 } 
 
-nav:after{
-  content: "";
-  display:block;
-  clear:both;
-}
 
-
-.two{
+#two{
     background-color: #FFE2B8;
     border: 1px black solid;
-    padding: 20px;
 }
 
 .Column{
@@ -78,14 +74,7 @@ nav:after{
     border: 1px black solid;
     padding: 20px;
     float:left;
-    display:inline-block;
-    width:20%
-}
-
-.clearfix:after{
-  content: "";
-  display:block;
-  clear:both;
+    width:25%;
 }
 
 footer {
