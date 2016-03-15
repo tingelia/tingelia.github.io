@@ -21,10 +21,10 @@ header {
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
-    height: 100%;
+   
 }
 
-#bigimage {
+.bigimage {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
@@ -32,12 +32,14 @@ header {
     float:left;
 } 
 
-#words {
+.words {
+  height:0;
+  padding-bottom: 32%;
+  position:relative;
   width:32%;
   float:right;
   background-color: #E89C6C;
   border: 1px black solid;
-  padding:20%,20px,20%,20px;
 }
 
 .words p{
