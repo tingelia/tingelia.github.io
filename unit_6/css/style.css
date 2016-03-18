@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+*{box-sizing: border-box;}
+
+p{
+	font-size:16px;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    color: #000; 
+   font-size: 2em;
+   font-family:roboto, sans-serif;
+   font-style: normal;
+    font-weight:bold;
+  text-align:center;
+}
+
+#one{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+}
+
+.bigimage {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    width: 60%; 
+    float:left;
+} 
+
+
+.words {
+  width:40%;
+  float:right;
+  background-color: #E89C6C;
+  border: 1px black solid;
+  padding:60px 20px;
+  height:413px;
+
+}
+
+.words p{
+ left:10px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+nav {
+ 	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+ }
+
+nav img{
+  float:left; 
+  width:6.666%;
+} 
+
+
+#two{
+    background-color: #FFE2B8;
+    border: 1px black solid;
+}
+
+.Column{
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    float:left;
+    width:25%;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
