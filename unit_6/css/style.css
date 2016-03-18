@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 *{box-sizing: border-box;}
 
 p{
@@ -7,25 +9,29 @@ p{
 }
 
 header {
-    background-color: #FFED74;
-    border: 1px black solid;
+    background-color: #E0E0E0;
+    border: 1px #E0E0E0 solid;
     padding: 20px;
     color: #000; 
-   font-size: 2em;
-   font-family:roboto, sans-serif;
-   font-style: normal;
+    font-size: 2em;
+    font-family:"roboto", sans-serif;
+    font-style: normal;
     font-weight:bold;
-  text-align:center;
+    text-align:center;
+}
+
+span{
+  color:red;
 }
 
 #one{
-    background-color: #FFE2B8;
-    border: 1px black solid;
+    background-color: white;
+    border: 1px black dashed;
 }
 
 .bigimage {
-    background-color: #E89C6C;
-    border: 1px black solid;
+    background-color: white;
+    border: 1px black dashed;
     padding: 20px;
     width: 60%; 
     float:left;
@@ -35,11 +41,13 @@ header {
 .words {
   width:40%;
   float:right;
-  background-color: #E89C6C;
-  border: 1px black solid;
+  background-color: white;
+  border: 1px black dashed;
   padding:60px 20px;
   height:413px;
-
+  font-family: 'indie flower';
+  font-size:1.5em;
+  line-height: 2em;
 }
 
 .words p{
@@ -56,7 +64,7 @@ header {
 }
 
 nav {
- 	background-color: #E8C66A;
+ 	background-color: #E0E0E0;
     border: 1px black solid;
     padding: 20px;
  }
@@ -68,20 +76,58 @@ nav img{
 
 
 #two{
-    background-color: #FFE2B8;
+    background-color: #808080;
     border: 1px black solid;
 }
 
 .Column{
-    background-color: #E89C6C;
+    background-color: #808080;
     border: 1px black solid;
     padding: 20px;
     float:left;
     width:25%;
 }
 
+#two li{
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+li:hover{
+  text-decoration: underline;
+  color:#FFA500;
+
+}
+
+h3{
+  text-align: center;
+  font-size: 1.8em;
+  font-family:'roboto',sans-serif;
+}
+
 footer {
-    background-color: #FF957E;
+    background-color: #E0E0E0;
     border: 1px black solid;
     padding: 20px;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+footer li{
+  float:left; 
+  width:33%;
+  padding-bottom: 40px
+  margin-bottom:20px;
+  font-family: 'Pacifico', cursive;
+}
+footer:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
