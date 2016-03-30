@@ -4,7 +4,7 @@
 
 *{box-sizing: border-box;}
 
-p{
+body {
 	font-size:16px;
 }
 
@@ -133,14 +133,35 @@ footer:after {
     height: 0;
 }
 
-@media only screen and (max-width: 507px) {
+@media only screen and (min-width: 507px) {
 
+body {
+  font-size:5px;
+}
   .bigimage {
   width: 100%; 
   float: none;
+  display: block;
   }
 
   .words {
   width:100%;
   float: none;
+  display: block;
   }
+
+  nav img {
+  float: none; 
+  width: 30%;
+}
+
+.Column{
+    background-color: #808080;
+    border: 1px black solid;
+    padding: 20px;
+    float:none;
+    width:100%;
+}
+
+
+} 
