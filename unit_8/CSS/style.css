@@ -32,7 +32,7 @@ span{
 .bigimage {
     background-color: white;
     border: 1px black dashed;
-    padding: 20px;
+    padding: 20px, 2%;
     width: 60%; 
     float:left;
 } 
@@ -43,11 +43,11 @@ span{
   float:right;
   background-color: white;
   border: 1px black dashed;
-  padding:60px 20px;
-  height:413px;
+  padding:60px 2%;
+  height:367px;
   font-family: 'indie flower';
-  font-size:1.5em;
-  line-height: 2em;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 .words p{
@@ -133,26 +133,29 @@ footer:after {
     height: 0;
 }
 
-@media only screen and (min-width: 507px) {
+@media only screen and (max-width:627px) {
 
 body {
-  font-size:5px;
+  font-size:10px;
 }
   .bigimage {
   width: 100%; 
+  height: auto;
   float: none;
-  display: block;
   }
 
   .words {
   width:100%;
   float: none;
   display: block;
+  font-size:1.5em;
+  height: 200px;
   }
 
   nav img {
   float: none; 
   width: 30%;
+  height: auto;
 }
 
 .Column{
@@ -161,6 +164,14 @@ body {
     padding: 20px;
     float:none;
     width:100%;
+}
+
+footer li{
+  float:none; 
+  width:50%;
+  padding-bottom: 40px
+  margin-bottom:20px;
+  font-family: 'Pacifico', cursive;
 }
 
 
